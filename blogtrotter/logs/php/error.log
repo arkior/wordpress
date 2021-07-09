@@ -1,0 +1,27 @@
+[05-Jul-2021 13:50:26 UTC] Sync process for Gutenberg Blocks has started.
+[05-Jul-2021 13:50:26 UTC] CATEGORY:Importing categories..
+[05-Jul-2021 13:50:27 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[05-Jul-2021 13:50:27 UTC] CATEGORY:Completed category import.
+[05-Jul-2021 13:50:27 UTC] BLOCK: Getting Total Blocks
+[05-Jul-2021 13:50:27 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg
+[05-Jul-2021 13:51:23 UTC] BLOCK: Requests count 3
+[05-Jul-2021 13:51:23 UTC] BLOCK: Importing request 1 ..
+[05-Jul-2021 13:51:23 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1
+[05-Jul-2021 13:51:53 UTC] BLOCK: API Error: cURL error 28: Operation timed out after 30001 milliseconds with 0 bytes received
+[05-Jul-2021 13:51:53 UTC] BLOCK: Completed request 1
+[05-Jul-2021 13:51:53 UTC] BLOCK: Importing request 2 ..
+[05-Jul-2021 13:51:53 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2
+[05-Jul-2021 13:51:54 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[05-Jul-2021 13:51:54 UTC] BLOCK: Completed request 2
+[05-Jul-2021 13:51:54 UTC] BLOCK: Importing request 3 ..
+[05-Jul-2021 13:51:54 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3
+[05-Jul-2021 13:52:24 UTC] BLOCK: API Error: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[05-Jul-2021 13:52:24 UTC] BLOCK: Completed request 3
+[05-Jul-2021 13:52:24 UTC] SITE: Getting Total Sites
+[05-Jul-2021 13:52:24 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[05-Jul-2021 13:53:13 UTC] SITE: Request count 1
+[05-Jul-2021 13:53:13 UTC] SITE: Importing request 1 ..
+[05-Jul-2021 13:53:13 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[05-Jul-2021 13:53:13 UTC] SITE: Storing in option ast-block-templates-sites-1
+[05-Jul-2021 13:53:13 UTC] SITE: Completed request 1
+[05-Jul-2021 13:53:13 UTC] Sync process for Gutenberg Blocks is done.

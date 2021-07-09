@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Gridbox Child
+ Description:  Thème enfant de Gridbox
+ Author:       PeHaa
+ Author URI:   
+ Template:     gridbox
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+*/
+
+:root
+{
+    --branding-color: #674c45;
+    --header-background-color:var(--branding-color);
+    --footer-background-color:var(--branding-color);
+    --button-color:var(--branding-color);
+}
